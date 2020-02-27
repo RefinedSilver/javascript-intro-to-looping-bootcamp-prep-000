@@ -20,9 +20,9 @@ function whileLoop(n) {
   return "done";
 }
 whileLoop();
-let i = 0;
 
 function doWhileLoop(num) {
+  let i = 0;
 
   do {
     function incrementVariable() {
