@@ -1,5 +1,4 @@
 function forLoop (a = []) {
-
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
       a.push(`I am ${i} strange loop.`);
@@ -13,7 +12,6 @@ forLoop();
 
 function whileLoop(n) {
   let countdown = n;
-
     while (countdown > 0) {
       console.log(--countdown);
     }
